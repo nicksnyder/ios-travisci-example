@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode7.3
 script:
-  - set -o pipefail && xcodebuild test -workspace App.xcworkspace -scheme App -sdk iphonesimulator9.3 | xcpretty
-  - set -o pipefail && xcodebuild test -workspace App.xcworkspace -scheme App -sdk iphonesimulator8.4 | xcpretty
+  - set -o pipefail && xcodebuild test -workspace App.xcworkspace -scheme App -sdk iphonesimulator9.3 -destination 'platform=iOS Simulator,name=iPhone 6' -destination 'platform=iOS Simulator,name=iPhone 6s Plus' | xcpretty
+  - set -o pipefail && xcodebuild test -workspace App.xcworkspace -scheme App -sdk iphonesimulator8.4 -destination 'platform=iOS Simulator,name=iPhone 6' -destination 'platform=iOS Simulator,name=iPhone 6s Plus' | xcpretty
