@@ -1,2 +1,4 @@
 language: objective-c
 osx_image: xcode7.3
+xcode_workspace: App.xcworkspace
+xcode_scheme: App
