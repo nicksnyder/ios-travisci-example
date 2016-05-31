@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode7.3
 script:
   - instruments -s devices
-  - set -o pipefail && xcodebuild test -workspace App.xcworkspace -scheme App -sdk iphonesimulator9.3 -destination 'platform=iOS Simulator,name=iPhone 6' -destination 'platform=iOS Simulator,name=iPhone 6s Plus' | xcpretty
+  - set -o pipefail && xcodebuild test -workspace App.xcworkspace -scheme App -sdk iphonesimulator9.3 -destination 'platform=iOS Simulator,name=iPhone 6 (9.3)' -destination 'platform=iOS Simulator,name=iPhone 6s Plus (9.3)' | xcpretty
