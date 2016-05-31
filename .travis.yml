@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode7.3
-script: >
+script:
   set -o pipefail &&
   xcodebuild test -workspace App.xcworkspace -scheme App -sdk iphonesimulator9.3
     -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3'
