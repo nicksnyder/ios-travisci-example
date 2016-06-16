@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B101AE71D13444B00B6E520 /* Greeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B101AE61D13444B00B6E520 /* Greeter.swift */; };
 		0B6868531CFE3F84007CED45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6868521CFE3F84007CED45 /* AppDelegate.swift */; };
 		0B6868551CFE3F84007CED45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6868541CFE3F84007CED45 /* ViewController.swift */; };
 		0B6868581CFE3F84007CED45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6868561CFE3F84007CED45 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B101AE61D13444B00B6E520 /* Greeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Greeter.swift; sourceTree = "<group>"; };
 		0B68684F1CFE3F84007CED45 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6868521CFE3F84007CED45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B6868541CFE3F84007CED45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				0B6868591CFE3F84007CED45 /* Assets.xcassets */,
 				0B68685B1CFE3F84007CED45 /* LaunchScreen.storyboard */,
 				0B68685E1CFE3F84007CED45 /* Info.plist */,
+				0B101AE61D13444B00B6E520 /* Greeter.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				0B6868551CFE3F84007CED45 /* ViewController.swift in Sources */,
 				0B6868531CFE3F84007CED45 /* AppDelegate.swift in Sources */,
+				0B101AE71D13444B00B6E520 /* Greeter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
